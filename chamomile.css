@@ -1,0 +1,118 @@
+body{
+    font-family: "futura-pt", sans-serif;
+    background-color: rgb(21, 21, 24);
+    color:#F4FEDC;
+    text-align: center;
+}
+
+:root{
+--shadow-color:rgb(255, 255, 255);    
+--shadow-elevation-high:
+0.1px 0.1px 0.2px hsl(var(--shadow-color) / 0),
+0.6px 0.9px 1.6px hsl(var(--shadow-color) / 0.07),
+1.1px 1.7px 3px hsl(var(--shadow-color) / 0.15),
+1.7px 2.4px 4.4px hsl(var(--shadow-color) / 0.22),
+2.3px 3.4px 6.2px hsl(var(--shadow-color) / 0.3),
+3.2px 4.7px 8.5px hsl(var(--shadow-color) / 0.37),
+4.4px 6.5px 11.8px hsl(var(--shadow-color) / 0.45),
+6.1px 8.9px 16.2px hsl(var(--shadow-color) / 0.52);
+}
+
+#header-main{
+    background-color: rgb(21, 21, 24);
+    color:#F4FEDC;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px 0px rgba(73, 73, 170, 0.192);
+    
+}
+
+.bg-background-custom{
+    background-color: rgb(21, 21, 24);
+    color: #F4FEDC;
+
+}
+.text-color{
+    color:#F4FEDC;
+}
+
+a{
+    color:#F4FEDC;
+    text-decoration: none;
+    font-family: "futura-pt", sans-serif;
+    
+}
+
+
+
+.hero-image{
+    width: 500px;
+    height: auto;
+    box-shadow: 5px 5px 30px hsla(226, 60%, 50%, 0.534);
+}
+#main-logo{
+    padding: 10px;
+    height: 75px;
+}
+
+.custom-max-height {
+    max-height: 350px;
+ 
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bi-list{
+    color: #F4FEDC;
+    font-size: 40px;
+}
+
+/* footer */
+
+footer{position: absolute; bottom: 0; left: 0; right: 0;}
+
+#footer-css{
+    margin-top: auto;
+    bottom: 0;
+    position: relative;
+}
+
+
+/* bootstrap overrides */
+.custom-table-header th{background-color: rgb(42, 42, 49); color:#F4FEDC; }
+.custom-table-row th{background-color: rgb(21, 21, 24); color: #F4FEDC; }
+.custom-table-alt-row th{background-color: rgb(42, 42, 49);color: #F4FEDC  }
+.custom-table-row td{background-color: rgb(21, 21, 24); color:#F4FEDC}
+.custom-table-alt-row td{background-color: rgb(42, 42, 49); color: #F4FEDC }
+
+.navbar-default ,.navbar-nav li a{
+    color: #F4FEDC;!important;
+    margin: 0;
+    font-size: 25px;
+}
+.navbar-default ,.navbar-nav> li >a:hover{
+  
+    color: #F4FEDC;!important;
+    margin: 0;
+    font-size: 25px;
+
+}
+.navbar-default ,.navbar-nav> li >a:focus{
+  
+    color: #F4FEDC;!important;
+    margin: 0;
+    font-size: 25px;
+
+}
+.navbar-default ,.navbar-nav> li >a:active{
+  
+    color: #3b3b39;!important;
+    margin: 0;
+    font-size: 25px;
+
+}
